@@ -1,5 +1,6 @@
+CFLAGS = -Wall
 #target exe
-myexe: hello.o myfunc.o
+all: hello.o myfunc.o
 	g++ $(CFLAGS) -o myexe hello.o myfunc.o
 	
 #rebuild if either of the files below change
