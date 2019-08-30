@@ -2,6 +2,6 @@
 
 std::string myfunc()
 {
-	//a brand new comment
+	//a newer brand new comment
 	return "hello world";
 }
