@@ -13,4 +13,4 @@ myfunc.o: myfunc.cpp myfunc.h
 
 #type 'make clean' to remove following	
 clean:
-	rm -f *.o myexe.exe
+	rm -f *.o myexe
